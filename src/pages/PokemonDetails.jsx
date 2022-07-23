@@ -9,9 +9,9 @@ const PokemonDetails = ({ allPokemons }) => {
     return pokemon.name.toString() === name;
   });
 
-  const style = `list-container ${pokemon.types[0].type.name}`;
+  // const style = `list-container ${pokemon.types[0].type.name}`;
 
-  if (!style) return <div>loading</div>;
+  // if (!style) return <div>loading</div>;
   if (!pokemon) return <div>loading</div>;
   return (
     <section className={`pokemon-detail `}>
