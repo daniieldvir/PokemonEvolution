@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/PokemonEvolution/static/css/main.fba8e895.css",
-    "main.js": "/PokemonEvolution/static/js/main.25064b4d.js",
+    "main.js": "/PokemonEvolution/static/js/main.772660d6.js",
     "index.html": "/PokemonEvolution/index.html",
     "main.fba8e895.css.map": "/PokemonEvolution/static/css/main.fba8e895.css.map",
-    "main.25064b4d.js.map": "/PokemonEvolution/static/js/main.25064b4d.js.map"
+    "main.772660d6.js.map": "/PokemonEvolution/static/js/main.772660d6.js.map"
   },
   "entrypoints": [
     "static/css/main.fba8e895.css",
-    "static/js/main.25064b4d.js"
+    "static/js/main.772660d6.js"
   ]
 }
