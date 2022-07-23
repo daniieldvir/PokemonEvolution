@@ -12,7 +12,7 @@ const PokemonDetails = ({ allPokemons }) => {
   // const style = `list-container ${pokemon.types[0].type.name}`;
 
   // if (!style) return <div>loading</div>;
-  if (!pokemon) return <div>loading</div>;
+  if (!pokemon) return <div>loading detail</div>;
   return (
     <section className={`pokemon-detail `}>
       <h1>{pokemon.name}</h1>

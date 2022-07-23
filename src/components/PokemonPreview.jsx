@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const PokemonPreview = ({ pokemon }) => {
   const style = `list-container ${pokemon.types[0].type.name}`;
 
-  if (!style) return <div>loading</div>;
+  if (!style) return <div>loading Preview</div>;
 
   return (
     <div className={style}>
