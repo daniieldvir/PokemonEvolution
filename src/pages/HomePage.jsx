@@ -41,7 +41,7 @@ const HomePage = () => {
             <Routes>
               <Route
                 element={<PokemonDetails allPokemons={allPokemons} />}
-                path="/PokemonEvolution/:name"></Route>
+                path="/:name"></Route>
 
               <Route
                 element={
@@ -50,7 +50,7 @@ const HomePage = () => {
                     getAllPokemons={getAllPokemons}
                   />
                 }
-                path="/PokemonEvolution"></Route>
+                path="/"></Route>
             </Routes>
           </Router>
         </div>

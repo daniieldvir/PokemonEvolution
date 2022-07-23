@@ -21,7 +21,7 @@ const PokemonPreview = ({ pokemon }) => {
         <small>Type: {pokemon.types[0].type.name}</small>
       </div>
 
-      <Link className="preview-link" pokemon={pokemon} to={`/${pokemon.name}`}>
+      <Link className="preview-link" pokemon={pokemon} to={`/:${pokemon.name}`}>
         More Details
       </Link>
     </div>

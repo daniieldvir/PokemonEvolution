@@ -22,9 +22,6 @@ const App = () => {
     utilService.save('theme', newTheme);
   };
   return (
-    // <div className="app-container">
-    //   <HomePage />
-    // </div>
     <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
       <GlobalStyle />
       <StyledApp className="app-style">
