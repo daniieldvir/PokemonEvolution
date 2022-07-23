@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PokemonEvolution/static/css/main.fba8e895.css",
+    "main.js": "/PokemonEvolution/static/js/main.7125b213.js",
+    "index.html": "/PokemonEvolution/index.html",
+    "main.fba8e895.css.map": "/PokemonEvolution/static/css/main.fba8e895.css.map",
+    "main.7125b213.js.map": "/PokemonEvolution/static/js/main.7125b213.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fba8e895.css",
+    "static/js/main.7125b213.js"
+  ]
+}
