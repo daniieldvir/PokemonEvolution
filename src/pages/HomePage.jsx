@@ -32,7 +32,7 @@ const HomePage = () => {
     getAllPokemons();
   }, []);
 
-  if (!allPokemons) return <div>loading</div>;
+  if (!allPokemons) return <div>loading...</div>;
   return (
     <div className="app-container">
       <div className="pokemon-container">
