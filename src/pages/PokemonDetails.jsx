@@ -8,13 +8,14 @@ const PokemonDetails = ({ allPokemons }) => {
   const pokemon = allPokemons.find((pokemon) => {
     return pokemon.name.toString() === name;
   });
+  console.log(pokemon);
 
   const style = `list-container ${pokemon.types[0].type.name}`;
+  console.log(style);
 
-  if (!style) return <div>loading</div>;
   if (!pokemon) return <div>loading detail</div>;
   return (
-    <section className={`pokemon-detail `}>
+    <section className={`pokemon-detail ${style}`}>
       <h1>{pokemon.name}</h1>
 
       <section className="pokemon-detail-size">
@@ -55,7 +56,7 @@ const PokemonDetails = ({ allPokemons }) => {
 
       <button
         onClick={() => {
-          navigate('/');
+          navigate('/PokemonEvolution');
         }}>
         Back To Pokemon's
       </button>
